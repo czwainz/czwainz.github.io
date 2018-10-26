@@ -1,0 +1,67 @@
+body  {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid  {
+  background-image: url("mountainlake.jpeg");
+  height: 500px;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header{
+  background-color:rgb(189, 239, 241);
+  height: 3rem;
+  color: whitesmoke;
+  text-shadow: 0px 0px 3px black;
+  position: fixed-top;
+}
+
+.name {
+  display: flex;
+  margin-top: .75rem;
+}
+
+.stuff {
+  margin-top: .5rem; 
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.content {
+  color: honeydew;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.content h1{
+  text-shadow: 0px 0px 20px black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content h4{
+  display: flex;
+  flex-direction: column;
+  text-shadow: 0px 0px 20px black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.name-1 {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  align-content: center;
+  color: beige;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
