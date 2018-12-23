@@ -1,14 +1,19 @@
 body  {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  background-image: linear-gradient( rgb(189, 239, 241), #20c997)
 }
 
 .container-fluid  {
   background-image: url("mountainlake.jpeg");
-  height: 500px;
+  height: 800px;
   background-position: inherit;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.bg-dark {
+  opacity: .9;
 }
 
 .navbar {
@@ -22,6 +27,8 @@ body  {
   z-index: 1;
   display: flex;
   flex-direction: row;
+font-family: 'Work Sans', sans-serif;
+
 }
 
 .name {
@@ -41,18 +48,18 @@ body  {
   color: honeydew;
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-top: 18rem;
 }
 
 .content h1{
   text-shadow: 0px 0px 20px black;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family: 'Nixie One', cursive;
 }
 .content h4{
   display: flex;
   flex-direction: column;
   text-shadow: 0px 0px 10px black;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+font-family: 'Nixie One', cursive;}
 /* 
 .transbox {
   margin: 30px;
@@ -86,7 +93,6 @@ body  {
 
 .contact {
 
-  background-color:rgb(189, 239, 241);
   height: 20rem;
   color: whitesmoke;
   text-shadow: 0px 0px 3px black;
