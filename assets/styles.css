@@ -1,20 +1,15 @@
 body  {
   font-family: 'Work Sans', sans-serif;
-  background-image: linear-gradient( rgb(189, 239, 241), #20c997)
 }
 
 .container-fluid  {
-  background-image: url("mountainlake.jpeg");
-  height: 800px;
-  background-position: inherit;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-image: linear-gradient( rgb(189, 239, 241), #20c997);
 }
 
 .bg-dark {
   opacity: .9;
 }
+
 
 .navbar {
   background-color:rgb(189, 239, 241);
@@ -45,10 +40,11 @@ font-family: 'Work Sans', sans-serif;
 }
 
 .content {
+    background-image: url("mountainlake.jpeg");
   color: honeydew;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-top: 18rem;
+  padding-top: 10rem;
 }
 
 .content h1{
@@ -60,13 +56,6 @@ font-family: 'Nixie One', cursive;
   flex-direction: column;
   text-shadow: 0px 0px 10px black;
 font-family: 'Nixie One', cursive;}
-/* 
-.transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-  filter: alpha(opacity=60); */
 
 .name-1 {
   margin-top: 10rem;
@@ -84,15 +73,7 @@ font-family: 'Nixie One', cursive;}
   text-shadow: 0px 0px 5px;
 }
 
-.col-4  {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
 .contact {
-
   height: 20rem;
   color: whitesmoke;
   text-shadow: 0px 0px 3px black;
@@ -101,6 +82,6 @@ font-family: 'Nixie One', cursive;}
 .contact-2  {
   display: flex;
   flex-direction: column;
-  /* align-content: center; */
-  /* justify-self: baseline */
+  margin-top: 15rem;
+
 }
