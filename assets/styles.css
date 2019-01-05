@@ -6,6 +6,8 @@ body  {
   background-image: linear-gradient( rgb(189, 239, 241),  rgb(189, 239, 241), #20c997);
 }
 
+
+
 .bg-dark {
   opacity: .9;
 }
@@ -44,7 +46,7 @@ font-family: 'Work Sans', sans-serif;
   color: honeydew;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 
 .content h1{
