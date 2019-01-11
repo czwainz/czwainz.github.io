@@ -24,19 +24,22 @@
       </div>
       <div class="col-5 offset-1 stuff">
         <a href="http://www.linkedin.com/in/chrissy-zwainz" title="LinkedIn"><i class="fab fa-2x fa-linkedin xl" style="margin-right: .5rem; color: whitesmoke;"></i></a>
-        <i style=" margin-left: 1rem;" class="fab fa-2x fa-github"></i>
+        <a href="https://github.com/czwainz" title="Github Profile"><i style=" margin-left: 1rem; margin-right: .5rem; color: whitesmoke;"
+            class="fab fa-2x fa-github"></i></a>
         <i style=" margin-left: 1.5rem;" class="fas fa-2x fa-file"></i>
+        <!-- upload pdf to google drive, copy shareable link -->
       </div>
     </div>
     <!-- name n paragraph-->
     <div class="row content d-flex align-items-center">
       <div class="col-12 pic d-flex justify-content-center pic-col">
-        <img src="assets/headshot.jpg" alt="headshot" style="height: 15rem; width: auto;" class="shadow border mb-1">
+        <img src="assets/headshot.jpg" alt="headshot" style="height: 15rem; width: auto; border-radius: 8px;" class="shadow border mb-1">
       </div>
       <div class="col-12 d-flex justify-content-center card bg-dark">
         <h1 style="text-align: center;"><strong>Chrissy Zwainz</strong></h1>
-        <h4 style="text-align: center; text-shadow: 0px 0px gray;"> <strong>Full-Stack Developer</strong> · Cat Lover
-          · Happy Person ·</h4>
+        <h4 style="text-align: center; text-shadow: 0px 0px gray;"> <strong>· Full-Stack Developer ·</strong></h4>
+        <h6 style="text-align: center; text-shadow: 0px 0px gray; font-family: 'Nixie One', cursive;"> · Cat Lover ·
+          Happy Person ·</h6>
 
         <!-- transbox paragraph -->
         <div class="row card mx-5 my-3 align-items-center">
@@ -55,8 +58,9 @@
           <div class=" d-flex justify-content-around flex-wrap">
             <i class="fab fa-5x fa-html5" style="color: orange"></i>
             <i class="fab fa-5x fa-css3-alt" style="color: cornflowerblue"></i>
+            <img src="https://img.icons8.com/windows/1600/git.png" style="color: gray; margin-top: 2px;" width="75px"
+              height="75px">
             <img src="assets/bootstrap-stack-logo.png" alt="" width="60px;" height="75px">
-            <i class="fab fa-3x fa-usb" style="color: gray; margin-top: 2px; transform: rotate(-90deg);"></i>
             <i class="fab fa-5x fa-js-square" style="color: green"></i>
             <i class="fab fa-5x fa-node-js" style="color: palevioletred;"></i>
             <i class="fab fa-5x fa-vuejs" style="color: #78C2AD;"></i>
@@ -98,7 +102,7 @@
       <div class="col-8">
         <h4 style="text-align: center;"><u>Flip!</u> </h4>
         <p style="text-align: center;">A group project created as an educational tool.<br>
-          <!-- <button type="button" class="btn btn-info shadow border" onclick="location.href='https://czwainz.github.io/food-game/'">Play</button> -->
+          <button type="button" class="btn btn-info shadow border" onclick="location.href='http://flipflashcards.herokuapp.com/#/'">Play</button>
         </p>
       </div>
     </div>
@@ -106,15 +110,14 @@
     <div class="row contact d-flex justify-content-start align-items-center">
       <div class="col-6">
         <div class="contact-2 form-group">
-          <h6>CONTACT ME</h6>
-          <p>Please let me know if you'd like me to work for you because I would love a job!</p>
+          <h6>CONTACT ME FOR ADDITIONAL INFORMATION</h6>
           <form action="https://formspree.io/zchrissychrissy@gmail.com" method="POST" />
           <p>Name</p>
           <input type="text" name="Name" class="form-control">
           <p>Email</p>
           <input type="text" name="Email" class="form-control">
           <p>Message</p>
-          <input type="text" name="Message" class="form-control">
+          <textarea type="text" name="Message" class="form-control"></textarea>
           <br>
           <button onclick="postMessage" class="btn btn-dark mt-2 shadow border form-control">Send </button>
         </div>
