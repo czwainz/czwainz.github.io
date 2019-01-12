@@ -7,14 +7,18 @@ body  {
 }
 
 
-
 .bg-dark {
   opacity: .9;
 }
-/* 
+
 i, img#solid {
   opacity: 1;
-} */
+}
+
+#solid
+{
+  opacity: 1;
+}
 
 
 .navbar {
