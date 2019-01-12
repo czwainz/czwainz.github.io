@@ -36,12 +36,11 @@
       <div class="col-12 pic d-flex justify-content-center pic-col">
         <img src="assets/headshot.jpg" alt="headshot" style="height: 15rem; width: auto; border-radius: 8px;" class="shadow border mb-1">
       </div>
-      <div class="col-12 d-flex justify-content-center card bg-dark">
+      <div class="col-12 d-flex justify-content-center card bg-dark" id="solid">
         <h1 style="text-align: center;"><strong>Chrissy Zwainz</strong></h1>
         <h4 style="text-align: center; text-shadow: 0px 0px gray;"> <strong>· Full-Stack Developer ·</strong></h4>
         <h6 style="text-align: center; text-shadow: 0px 0px gray; font-family: 'Nixie One', cursive;"> · Cat Lover ·
           Happy Person ·</h6>
-
         <!-- transbox paragraph -->
         <div class="row card mx-5 my-3 align-items-center">
           <div class="col-12 bg-light" style="color: var(--gray-dark); text-align: justify;">
@@ -57,7 +56,8 @@
               help people with the problems I solve, all while enjoying the beauty the world has to offer. </p>
           </div>
         </div>
-        <div class="row card mx-5 my-1" style="opacity: 1;">
+        <!-- icons -->
+        <div class="row card mx-5 my-1">
           <div class=" d-flex justify-content-around flex-wrap">
             <i class="fab fa-5x fa-html5" style="color: orange"></i>
             <i class="fab fa-5x fa-css3-alt" style="color: cornflowerblue"></i>
@@ -76,20 +76,22 @@
     </div>
     <!-- projects-->
     <div class="row content-2 my-3 justify-content-center">
-      <div class="col-4 justify-content-start">
+      <div class="col-4 justify-content-end">
         <img class="bg-light shadow border" src="assets/food-game-screenshot.png" style="height: 18rem; width: 15rem;"
           alt="">
       </div>
-      <div class="col-8 justify-content-end align-items-center">
+      <div class="col-8 justify-content-end align-items-center px-5">
         <h4 style="text-align: center;"><em>Hungry, Hungry Chrissy</em> </h4>
-        <p style="text-align: center;">This is the first project I ever created in JS.<br>
+        <p style="text-align: center;">This is the first project I ever created using JavaScript and Bootstrap.<br>
           <button type="button" class="btn btn-info shadow border" onclick="location.href='https://czwainz.github.io/food-game/'">Play</button>
         </p>
       </div>
 
-      <div class="col-8 mt-2 justify-content-start align-items-center ">
+      <div class="col-8 mt-2 justify-content-start align-items-center px-5">
         <h4 style="text-align: center;"><u>Battle Cards Game</u> </h4>
-        <p style="text-align: center;">This is the first project I ever created in the JS Framework Vue.<br>
+        <p>This a battle card game in which a player selects one of their cards and one of
+          their opponents to fight. This game was created using the Vue framework to manage different states and pages.
+          It also utlizies Axios to interact with the game's API.<br>
           <button type="button" class="btn btn-info shadow border" onclick="location.href='https://czwainz.github.io/battle-cards/#/'">Play</button>
         </p>
       </div>
@@ -104,13 +106,19 @@
       </div>
       <div class="col-8">
         <h4 style="text-align: center;"><u>Flip!</u> </h4>
-        <p style="text-align: center;">A group project created as an educational tool.<br>
-          <button type="button" class="btn btn-info shadow border" onclick="location.href='http://flipflashcards.herokuapp.com/#/'">Play</button>
+        <p style="text-align: center;">A PWA created as an educational tool. Click below to see an about page.<br>
+          <button type="button" class="btn btn-info shadow border" onclick="location.href='https://flipflashcards.herokuapp.com/#/about'">Play</button>
         </p>
       </div>
     </div>
+    <div class="row-footer">
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+    </div>
+
     <!-- contact -->
-    <div class="row contact d-flex justify-content-start align-items-center">
+    <!-- <div class="row contact d-flex justify-content-start align-items-center">
       <div class="col-6">
         <div class="contact-2 form-group">
           <h6>CONTACT ME FOR ADDITIONAL INFORMATION</h6>
@@ -126,7 +134,7 @@
         </div>
       </div>
 
-    </div>
+    </div> -->
   </div>
 
 
