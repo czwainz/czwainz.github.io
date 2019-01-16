@@ -89,3 +89,18 @@ font-family: 'Nixie One', cursive;}
   flex-direction: column;
 
 }
+
+.devicon-mysql-plain {
+  padding-top: .6rem;
+  font-size: 4rem;
+}
+
+.devicon-dot-net-plain {
+  padding-top: .6rem;
+  font-size: 4rem;
+}
+.devicon-csharp-line{
+  padding-top: .6rem;
+  font-size: 4rem;
+  /* text-shadow: 0px 0px 1px black; */
+}
