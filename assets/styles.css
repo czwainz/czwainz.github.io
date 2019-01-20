@@ -7,7 +7,6 @@ body  {
   overflow-x: hidden;
 }
 
-
 .backgroundDark {
   background-color: rgba(90, 88, 88, 0.8);
 }
@@ -15,8 +14,6 @@ body  {
 .backgroundLight {
   background-color: rgba(218, 218, 218, 0.68);
 }
-
-
 
 .navbar {
   background-color:rgb(189, 239, 241);
