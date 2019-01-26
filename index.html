@@ -63,17 +63,17 @@
         <!-- icons -->
         <div class="row card mx-5 my-1">
           <div class=" d-flex justify-content-around flex-wrap backgroundLight">
+            <i class="fab fa-5x fa-js-square" style="color: green"></i>
+            <i class="fab fa-5x fa-node-js" style="color: palevioletred;"></i>
+            <i class="devicon-csharp-line" style="color: rgb(181, 83, 247);"></i>
+            <i class="devicon-mysql-plain" style="color: rgb(245, 201, 99);"></i>
+            <i class="fab fa-5x fa-vuejs" style="color: #78C2AD;"></i>
+            <img src="assets/bootstrap-stack-logo.png" alt="" width="60px;" height="75px">
+            <i class="devicon-dot-net-plain" style="color: rgb(83, 102, 247);"></i>
+            <img src="https://img.icons8.com/color/1600/mongodb.png" width="60px;" height="75px"></img>
             <img src="https://img.icons8.com/windows/1600/git.png" style="margin-top: 2px;" width="75px" height="75px">
             <i class="fab fa-5x fa-html5" style="color: orange"></i>
             <i class="fab fa-5x fa-css3-alt" style="color: cornflowerblue"></i>
-            <img src="assets/bootstrap-stack-logo.png" alt="" width="60px;" height="75px">
-            <i class="fab fa-5x fa-js-square" style="color: green"></i>
-            <i class="fab fa-5x fa-node-js" style="color: palevioletred;"></i>
-            <i class="fab fa-5x fa-vuejs" style="color: #78C2AD;"></i>
-            <i class="devicon-mysql-plain" style="color: rgb(245, 201, 99);"></i>
-            <img src="https://img.icons8.com/color/1600/mongodb.png" width="60px;" height="75px"></img>
-            <i class="devicon-dot-net-plain" style="color: rgb(83, 102, 247);"></i>
-            <i class="devicon-csharp-line" style="color: rgb(181, 83, 247);"></i>
             <!-- <img src="https://www.balraj.co/wp-content/uploads/2018/11/c-logo.png" width="60px" height="75px" alt=""> -->
             <!-- <img src="assets/scrumlogo.png" width="60px;" height="75px" alt=""> -->
           </div>
@@ -81,22 +81,54 @@
       </div>
     </div>
     <!-- projects-->
-    <!-- slap game -->
     <div class="row content-2 my-3 justify-content-center">
-      <div class="col-12 col-md-4 order-1 d-flex justify-content-end">
-        <img class="bg-light shadow border" src="assets/food-game-screenshot.png" style="height: 18rem; width: 15rem;"
+
+      <!-- flip -->
+      <div class="col-12 col-md-4 order-1 justify-content-start">
+        <img class="bg-light shadow border" src="assets/flip-logo-bg-primary.png" style="height: auto; max-width: 20rem;"
           alt="">
       </div>
-      <div class="col-8 order-2 justify-content-end align-items-center px-5">
-        <h4 style="text-align: center;"><u>Food Game</u> </h4>
-        <p style="text-align: left;">Players can increase or decrease my health based on the snacks they feed me.
-          This is the first project I ever created using JavaScript and also utilizes HTML and CSS. It was a blast to
-          make!<br>
-          <button type="button" class="btn btn-info shadow border" onclick="location.href='https://czwainz.github.io/food-game/'">Play</button>
+      <div class="col-8 order-2 px-5">
+        <h4 style="text-align: center;"><u>Flip!</u> </h4>
+        <p style="text-align: left;">A PWA created as an educational tool for users who are trying to learn using
+          memorization. This app was created using the frameworks Vue.js and Node.js. It utilizes MongoDB and the
+          ORM Mongoose. Click below to see the app.<br>
+          <button type="button" class="btn btn-info shadow border" onclick="location.href='https://flipflashcards.herokuapp.com/#/'">Flip</button>
         </p>
       </div>
+
+      <!-- Keepr -->
+      <div class="col-8 order-4 order-md-3 px-5">
+        <h4 style="text-align: center;"><u>Keepr</u> </h4>
+        <p style="text-align: right;">A social network that allows users to visually share, and discover new interests
+          by posting (known as keeping) images
+          to their own collections (vaults). It was created using Vue.js and .Net C#. It utilizies a MySQL DB and the
+          ORM Dapper. Click below to see.<br>
+          <button type="button" class="btn btn-info shadow border" onclick="location.href='https://keeprz.herokuapp.com/#/'">Keepr</button>
+        </p>
+      </div>
+      <div class="col-12 col-md-4 order-3 justify-content-start">
+        <img class="bg-light shadow border" src="assets/keepr-logo.png" style="height: auto; max-width: 20rem;" alt="">
+      </div>
+
+      <!-- inspire -->
+      <div class="col-12 col-md-4 order-5 order-md-5 justify-content-end align-items-center mb-2">
+        <img class="bg-light border shadow" src="assets/inspire-screenshot.png" style="height: auto; max-width: 20rem;"
+          alt="">
+      </div>
+      <div class="col-8 order-6 order-md-6 mt-2 justify-content-start align-items-center px-5">
+        <h4 style="text-align: center;"><u>Inspire Page</u> </h4>
+        <p style="text-align: left;">Built using Vanilla JavaScript, HTML and CSS, this is a page that utilizes Axios
+          to import data from multiple web API's for weather and images. You can create and edit a To-Do list and also
+          check out a Quote Of
+          The Day.<br>
+          <button type="button" class="btn btn-info shadow border" onclick="location.href='https://czwainz.github.io/inspire/'">Inspire</button>
+        </p>
+      </div>
+
+
       <!-- battle cards -->
-      <div class="col-8 order-4 order-md-3 mt-2 justify-content-start align-items-center px-5">
+      <div class="col-8 order-8 order-md-7 mt-2 justify-content-start align-items-center px-5">
         <h4 style="text-align: center;"><u>Battle Cards Game</u> </h4>
         <p style="text-align: right;">This a battle card game in which a player selects one of their cards and one of
           their opponents to fight. This game was created using the Vue framework to manage different states and pages.
@@ -104,37 +136,25 @@
           <button type="button" class="btn btn-info shadow border" onclick="location.href='https://czwainz.github.io/battle-cards/#/'">Play</button>
         </p>
       </div>
-      <div class="col-12 col-md-4 order-3 order-md-4 justify-content-end align-items-center mb-2">
+      <div class="col-12 col-md-4 order-7 justify-content-end mb-2">
         <img class="bg-light border shadow" src="assets/battlecards-screenshot.png" style="height: 16rem; max-width: 14rem;"
           alt="">
       </div>
-      <!-- flip -->
-      <div class="col-12 col-md-4 order-5 justify-content-start">
-        <img class="bg-light shadow border" src="assets/flip-logo-bg-primary.png" style="height: auto; max-width: 25rem;"
+
+      <!-- slap game -->
+      <div class="col-12 col-md-4 order-9 d-flex justify-content-end">
+        <img class="bg-light shadow border" src="assets/food-game-screenshot.png" style="height: 18rem; width: 15rem;"
           alt="">
       </div>
-      <div class="col-8 order-6 px-5">
-        <h4 style="text-align: center;"><u>Flip!</u> </h4>
-        <p style="text-align: left;">A PWA created as an educational tool for users who are trying to learn using
-          memorization. This app was created using the frameworks Vue.js and Node.js. It utilizes MongoDB and the
-          framework Mongoose. Click below to see the app.<br>
-          <button type="button" class="btn btn-info shadow border" onclick="location.href='https://flipflashcards.herokuapp.com/#/'">Flip</button>
+      <div class="col-8 order-10 justify-content-end align-items-center px-5">
+        <h4 style="text-align: center;"><u>Food Game</u> </h4>
+        <p style="text-align: left;">Players can increase or decrease my health based on the snacks they feed me.
+          This is the first project I ever created using JavaScript and also utilizes HTML and CSS. It was a blast to
+          make!<br>
+          <button type="button" class="btn btn-info shadow border" onclick="location.href='https://czwainz.github.io/food-game/'">Play</button>
         </p>
       </div>
-      <!-- inspire -->
-      <div class="col-8 order-8 order-md-7 mt-2 justify-content-start align-items-center px-5">
-        <h4 style="text-align: center;"><u>Inspire Page</u> </h4>
-        <p style="text-align: right;">Built using Vanilla JavaScript, HTML and CSS, this is a page that utilizes Axios
-          to import data from multiple web API's for weather and images. You can create and edit a To-Do list and also
-          check out a Quote Of
-          The Day.<br>
-          <button type="button" class="btn btn-info shadow border" onclick="location.href='https://czwainz.github.io/inspire/'">View</button>
-        </p>
-      </div>
-      <div class="col-12 col-md-4 order-7 order-md-8 justify-content-end align-items-center mb-2">
-        <img class="bg-light border shadow" src="assets/inspire-screenshot.png" style="height: auto; max-width: 20rem;"
-          alt="">
-      </div>
+
     </div>
 
     <!-- bottom row icons -->
@@ -156,24 +176,6 @@
       </div>
     </div>
 
-    <!-- contact -->
-    <!-- <div class="row contact d-flex justify-content-start align-items-center">
-      <div class="col-6">
-        <div class="contact-2 form-group">
-          <h6>CONTACT ME FOR ADDITIONAL INFORMATION</h6>
-          <form action="https://formspree.io/zchrissychrissy@gmail.com" method="POST" />
-          <p>Name</p>
-          <input type="text" name="Name" class="form-control">
-          <p>Email</p>
-          <input type="text" name="Email" class="form-control">
-          <p>Message</p>
-          <textarea type="text" name="Message" class="form-control"></textarea>
-          <br>
-          <button onclick="postMessage" class="btn btn-dark mt-2 shadow border form-control">Send </button>
-        </div>
-      </div>
-
-    </div> -->
   </div>
 
 
