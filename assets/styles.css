@@ -5,7 +5,7 @@ body  {
 .container-fluid  {
   background-image: linear-gradient( rgb(189, 239, 241),  rgb(189, 239, 241), #20c997);
   overflow-x: hidden;
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
 }
 
 .backgroundDark {
